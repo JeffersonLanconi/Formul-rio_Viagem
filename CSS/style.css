@@ -1,0 +1,100 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../../Img/child.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  max-height: 100%;
+  color: #FFFFFF;
+}
+
+.whatsApp {
+  position: fixed;
+  top: 70%;
+  left: 90%;
+}
+.whatsApp p {
+  position: relative;
+  width: 200px;
+  right: 90%;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border: 2px solid #ff0043;
+  border-radius: 20px;
+  background-color: #ff0043;
+}
+
+.logoWhatsapp {
+  width: 50px;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 500px;
+  height: auto;
+}
+
+.logoHeader {
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
+}
+
+.toplogo {
+  width: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: black;
+}
+
+.generoDestino {
+  display: flex;
+  justify-content: space-around;
+}
+
+.enviar {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #ff0043;
+  color: #FFFFFF;
+}
+.btn:hover {
+  transition: 1s;
+  transform: rotate(360deg);
+  background-color: #0f9127;
+}
+
+.paragraphWhats {
+  display: inline-flex;
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.containerFooter {
+  display: block;
+  justify-content: center;
+}
+
+.logoFooter {
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
